@@ -1,11 +1,11 @@
 # Site settings
-author: J.
-title: 
+author: J. Singleton
+title: My Readme
 header-img: img/home-bg.png
 email: jennifer.singleton@gmail.com
-copyright_name: J.
+copyright_name: J. Singleton
 description: > # this means to ignore newlines until "baseurl:"
-  
+  Documenting a Lawyer's Journey to Full Stack Developer
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  jei-doubleton
