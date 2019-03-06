@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Workout of the Day CLI Gem"
-date:       2019-03-06 03:25:12 +0000
+date:       2019-03-05 22:25:13 -0500
 permalink:  workout_of_the_day_cli_gem
 ---
 
@@ -14,7 +14,7 @@ I started out the project brainstorming website data that could be useful to pul
 #  False Start (& learning new tools!)
 I was a little worried about how fancy the site looked, and after my CLI prep meeting, my worries were confirmed when the instructor said the site was loaded with javascript. This meant I couldn't use standard data scraping techniques and tools. I was up for the challenge, though, and the instructor sent along helpful resources to get me started ([Poltergeist](https://readysteadycode.com/howto-scrape-websites-with-ruby-and-poltergeist) and [PhantomJS](https://www.simon-neutert.de/2017/scrape-js-powered-websites-with-ruby-and-selenium/)). Soon though, she noticed that PhantomJS was incompatible with the latest MacOS update, Mojave, and sent along a new tool, [Waitr](http://watir.com/), with a link to a github demo she had created!
  
-Waitr was really interesting to read up on and experiment with. It uses headless Chrome, which essentially opens a browser in the background, without any user interface. This lets you load the page and then scrape the rendered html, getting around the hurdles javascript creates for standard scraping! I spent a couple hours playing with the instructor's demo and reading plenty of tutorials and stackoverflow threads but could not get the demo working on my machine. Despite downloading headless Chrome, editing my $PATH, and trying numerous other approaches, when I ran the program, I continually go the same error: Cannot find Chrome binary. 
+Waitr was really interesting to read up on and experiment with. It uses headless Chrome, which essentially opens a browser in the background, without any user interface. This lets you load the page and then scrape the rendered html, getting around the hurdles javascript creates for standard scraping! I spent a couple hours playing with the instructor's demo and reading plenty of tutorials and stackoverflow threads but could not get the demo working on my machine. Despite downloading headless Chrome, editing my $PATH, and trying numerous other approaches, each time I ran the program I got the same error: Cannot find Chrome binary. 
 
 When I initially decided to explore this more complicated form of scraping, I made a deal with myself that I wouldn't go too deep down the rabbit hole at the expense of losing focus of the assignment objective: writing DRY Object-Oriented Ruby code. When I hit the 2-hour exploratory limit I had set for myself, I cut my losses and went back to the drawing board.
 
