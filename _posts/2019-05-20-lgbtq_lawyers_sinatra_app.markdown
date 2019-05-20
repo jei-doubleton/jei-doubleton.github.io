@@ -5,7 +5,7 @@ date:       2019-05-20 01:05:57 -0400
 permalink:  lgbtq_lawyers_sinatra_app
 ---
 
-## Beginning
+## Beginnings
 As I worked through the Sinatra unit, an idea for the final project simmering in my mind, based on some volunteer work I do with an LGBTQ legal clinic. In the clinic, volunteer lawyers meet with LGBTQ folks for 15-20 minutes on a variety of legal issues. When a client needs more assistance than the clinic can provide, the other lawyers and I need to give the client a list of referrals. However, while we may know lawyers who practice in a given area of law, we don't always know whether those lawyers have LGBTQ competence. In an effort to make sure we don't send a client to a place where they might be misgendered or made to feel unwelcome, we currently send out an informal call to the clinic volunteers and others in our networks for any LGBTQ-friendly lawyers who could handle a certain case type. This method is inefficient and leads to an incomplete list of competent lawyers. 
 
 This app is a starting point to filling that need by creating a database of lawyers with LGBTQ competence. Verified users can add to the database of lawyers and see which lawyers have been added.
