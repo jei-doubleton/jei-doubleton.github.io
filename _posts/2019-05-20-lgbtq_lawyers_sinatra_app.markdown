@@ -10,7 +10,7 @@ As I worked through the Sinatra unit, an idea for the final project simmering in
 
 This app is a starting point to filling that need by creating a database of lawyers with LGBTQ competence. Verified users can add to the database of lawyers and see which lawyers have been added.
 
-## The App
+## [The App](https://github.com/jei-doubleton/lgbtq-lawyers-sinatra-app)
 The app is a fairly straightforward MVC. There are four models: `User`, `Lawyer`, `PracticeArea`, and `LawyerPracticeArea`, with the following associations:
 * a User `has_many` Lawyers,
 * a PracticeArea `has_many` LawyerPracticeAreas, and `has_many` Lawyers, through LawyerPracticeAreas
